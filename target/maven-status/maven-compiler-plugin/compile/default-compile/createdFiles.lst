@@ -3,7 +3,8 @@ com\home\practice\basicauth\exception\ErrorResponse.class
 com\home\practice\basicauth\config\OpenApiConfig.class
 com\home\practice\basicauth\controller\ContactController.class
 com\home\practice\basicauth\repository\ContactRepository.class
-com\home\practice\basicauth\SpringJpaPracticeApplication.class
+com\home\practice\basicauth\SpringBasicAuthenticationApplication.class
+com\home\practice\basicauth\config\SecurityConfig.class
 com\home\practice\basicauth\exception\ContactNotFoundException.class
 com\home\practice\basicauth\service\ContactServiceImpl.class
 com\home\practice\basicauth\pojo\Contact.class

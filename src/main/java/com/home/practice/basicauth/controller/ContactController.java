@@ -55,5 +55,10 @@ public class ContactController {
         contactService.saveContact(contact);
         return new ResponseEntity<>(contact, HttpStatus.CREATED);
     }
+    @DeleteMapping("/delete/{id}/contact") // path was changed to demo antMatchers....
+    public ResponseEntity<HttpStatus> deleteContact(@PathVariable String id) {
+        contactService.deleteContact(id);
+        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+    }
 
 }
